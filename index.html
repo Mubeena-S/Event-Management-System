@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EventMaster - Event Management System</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">EventMaster</div>
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#events">Events</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="mobile-menu" id="mobile-menu">☰</div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Welcome to EventMaster</h1>
+            <p>Your trusted partner for hosting memorable events of all kinds.</p>
+            <a href="#events" class="btn btn-primary">View Our Events</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>EventMaster specializes in organizing extraordinary events tailored to your vision. From corporate gatherings to personal celebrations, we ensure every detail is covered to perfection.</p>
+            <div class="about-grid">
+                <div class="about-card">
+                    <h3>Our Values</h3>
+                    <p>Creativity, excellence, and customer satisfaction drive everything we do.</p>
+                </div>
+                <div class="about-card">
+                    <h3>What We Offer</h3>
+                    <p>A range of services to cater to diverse event needs, including planning, design, and execution.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Section -->
+    <section id="events" class="events">
+        <div class="container">
+            <h2>Our Events</h2>
+            <div class="event-grid">
+                <div class="event-card">
+                    <img src="https://via.placeholder.com/300x200" alt="Wedding">
+                    <h3>Weddings</h3>
+                    <p>Celebrate your love story with a picture-perfect wedding planned by us.</p>
+                    <button class="btn btn-secondary">Learn More</button>
+                </div>
+                <div class="event-card">
+                    <img src="https://via.placeholder.com/300x200" alt="Corporate">
+                    <h3>Corporate Events</h3>
+                    <p>Host successful and professional corporate events effortlessly.</p>
+                    <button class="btn btn-secondary">Learn More</button>
+                </div>
+                <div class="event-card">
+                    <img src="https://via.placeholder.com/300x200" alt="Concert">
+                    <h3>Concerts</h3>
+                    <p>Experience music like never before with our expertly managed concerts.</p>
+                    <button class="btn btn-secondary">Learn More</button>
+                </div>
+                <div class="event-card">
+                    <img src="https://via.placeholder.com/300x200" alt="Birthday">
+                    <h3>Birthday Parties</h3>
+                    <p>Make your birthday celebrations extraordinary with our creative ideas.</p>
+                    <button class="btn btn-secondary">Learn More</button>
+                </div>
+                <div class="event-card">
+                    <img src="https://via.placeholder.com/300x200" alt="Exhibition">
+                    <h3>Exhibitions</h3>
+                    <p>Showcase your work in style with our exhibition planning expertise.</p>
+                    <button class="btn btn-secondary">Learn More</button>
+                </div>
+                <div class="event-card">
+                    <img src="https://via.placeholder.com/300x200" alt="Fundraiser">
+                    <h3>Fundraisers</h3>
+                    <p>Organize impactful fundraisers that inspire generosity.</p>
+                    <button class="btn btn-secondary">Learn More</button>
+                </div>
+                <div class="event-card">
+                    <img src="https://via.placeholder.com/300x200" alt="Sports">
+                    <h3>Sports Events</h3>
+                    <p>Plan exciting sports events that bring people together.</p>
+                    <button class="btn btn-secondary">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2>Client Testimonials</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <p>"The wedding was magical, thanks to EventMaster's dedicated team!"</p>
+                    <h4>- Aditi Sharma</h4>
+                </div>
+                <div class="testimonial-card">
+                    <p>"Our corporate event was a great success, thanks to your professionalism."</p>
+                    <h4>- Raj Mehta</h4>
+                </div>
+                <div class="testimonial-card">
+                    <p>"The concert was unforgettable! Everything was perfectly planned."</p>
+                    <h4>- Michael Brown</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contactForm">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn btn-primary">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 EventMaster. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
